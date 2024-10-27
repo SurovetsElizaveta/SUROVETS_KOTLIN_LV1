@@ -11,6 +11,7 @@ class Adapter : RecyclerView.Adapter<MyViewHolder>() {
     fun setItems(list: ArrayList<Int>) {
         items.clear()
         items.addAll(list)
+        notifyDataSetChanged()
     }
 
     fun AddItem(item: Int) {
