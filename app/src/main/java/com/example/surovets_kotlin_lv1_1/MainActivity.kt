@@ -3,12 +3,14 @@ package com.example.surovets_kotlin_lv1_1
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import java.util.ArrayList
 
 class MainActivity : AppCompatActivity() {
     lateinit var recyclerView:RecyclerView
-    lateinit var faBtn:FloatingActionButton
+    lateinit var faBtn:ExtendedFloatingActionButton
+//    lateinit var faBtn:FloatingActionButton
 
     val adapter = Adapter()
 

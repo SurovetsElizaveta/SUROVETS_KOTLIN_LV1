@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SUROVETS_KOTLIN_LV1_1</string>
+    <string name="fab_text">+</string>
 </resources>

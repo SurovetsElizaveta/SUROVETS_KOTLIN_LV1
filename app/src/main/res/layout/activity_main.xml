@@ -13,15 +13,26 @@
         app:spanCount="3">
     </androidx.recyclerview.widget.RecyclerView>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/fab"-->
+<!--        android:layout_width="60dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_gravity="right|bottom"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:background="@color/tan">-->
+
+<!--    </com.google.android.material.floatingactionbutton.FloatingActionButton>-->
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
         android:id="@+id/fab"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_gravity="right|bottom"
         android:layout_margin="20dp"
-        android:background="@color/tan">
+        android:text="@string/fab_text"
+        android:textSize="30dp">
 
-    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+    </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
 
 
 </FrameLayout>
