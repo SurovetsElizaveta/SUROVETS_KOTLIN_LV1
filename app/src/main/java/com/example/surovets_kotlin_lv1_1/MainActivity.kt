@@ -1,10 +1,7 @@
 package com.example.surovets_kotlin_lv1_1
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import java.util.ArrayList
@@ -28,10 +25,7 @@ class MainActivity : AppCompatActivity() {
             adapter.AddItem(adapter.itemCount + 1)
         }
 
-        if (savedInstanceState != null) {
-
-        }
-        else {
+        if (savedInstanceState == null) {
             adapter.setItems(ArrayList<Int>(listOf<Int>(1, 2, 3, 4, 5, 6, 7)))
         }
     }
