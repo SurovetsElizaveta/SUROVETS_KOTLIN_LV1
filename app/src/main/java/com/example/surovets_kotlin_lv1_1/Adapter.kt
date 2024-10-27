@@ -1,6 +1,5 @@
 package com.example.surovets_kotlin_lv1_1
 
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
